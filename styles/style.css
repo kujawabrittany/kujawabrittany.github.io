@@ -3,14 +3,22 @@ body, html {
   height: 100%; }
 
 .main {
-  display: flex;
-  width: 100%; }
+  display: flex; }
 
 .col {
   width: 50%; }
 
 .margin-text {
-  margin: 15% 5% 0 5%;
+  margin: 5% 15% 0% 15%;
   text-align: center; }
+
+.handle-align {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; }
+
+a {
+  color: black; }
 
 /*# sourceMappingURL=style.css.map */
